@@ -12,9 +12,8 @@
 //     return str;
 // }
 
-const burlarse = (str) => str.replace(/[aeou]/g, 'i');
+const burlarse = (str) => str.replace(/[aeou]/g, "i");
 
-const rta = burlarse('programar es dificil');
+const rta = burlarse("programar es dificil");
 
 console.log(rta);
-
