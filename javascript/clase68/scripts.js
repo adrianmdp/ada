@@ -23,5 +23,7 @@ const personas2 = personas.slice();
 
 personas2.push("Emilce");
 
+personas2[0] = "Pepe";
+
 console.log(personas);
 console.log(personas2);
