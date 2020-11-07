@@ -1,3 +1,26 @@
+const arreglo = [];
+
+// arreglo["name"] = "Adrian";
+// arreglo["lastname"] = "Solimano";
+
+// const personas = [];
+
+// personas.push(arreglo);
+// personas.push(arreglo);
+
+const objeto = {
+  datos: {
+    name: "Adrian",
+    lastname: "Solimano",
+  },
+};
+
+const personas = [];
+
+personas.push(objeto);
+personas.push(objeto);
+
+console.log(personas);
 // {
 //     id: 1336,
 //     name: "Tinadette Mysttink",

@@ -1,1 +1,1 @@
-// 5 Crear una funcion que devuelva al mas alto, al mas bajo, al mas anciano, al mas joven o al mas ancho de "Brastlewark".
+// 5 Crear una función que devuelva al más alto, al más bajo, al más anciano, al más joven o al más ancho de "Brastlewark".

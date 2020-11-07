@@ -1,1 +1,1 @@
-// 3 Crear una funcion que devuelva una lista de los habitantes de "Brastlewark" por el color de pelo.
+// 3 Crear una función que devuelva una lista de los habitantes de "Brastlewark" por el color de pelo.

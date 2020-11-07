@@ -1,1 +1,1 @@
-// 2 Crear una funcion que devuelva los personaes por ID en base a un rango numerico.
+// 2 Crear una función que devuelva los personajes por ID en base a un rango numérico.
