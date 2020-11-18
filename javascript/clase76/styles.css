@@ -1,4 +1,8 @@
-.noticia {
+body.on {
+    background-color: red;
+}
+
+/* .noticia {
     height: 200px;
     border: 2px solid #999;
 }
@@ -17,4 +21,4 @@
     width: 250px;
     height: 42px;
     line-height: 42px;
-}
+} */

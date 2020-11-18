@@ -24,12 +24,19 @@ const noticias = document.querySelectorAll('.noticia');
 // })
 
 // classList
+//      add
+//      remove
+//      toggle
+//      contains
+
 
 const agregarClass = () => {
 
     for(let i = 0; i < noticias.length; i++) {
 
-        noticias[i].classList.add('nuevo-class');
+        if(!noticias[i].classList.contains('important')) {
+            noticias[i].classList.add('nuevo-class');
+        }
 
     }
     // noticias.forEach((noti, i) => {
@@ -38,6 +45,16 @@ const agregarClass = () => {
 
 }
 
+
+const noticia3 = document.getElementById('titulo-noticia');
+noticia3.classList.remove('valornuevo');
+
+
+const bodyClassToggle = () => {
+    document.body.classList.toggle('on');
+}
+
+
 document.addEventListener('click', function() {
 
     agregarClass();
@@ -45,13 +62,18 @@ document.addEventListener('click', function() {
 }, btn);
 
 
-//  add
-//  remove
-//  toggle
-//  contains
+
 
 // style
 // getComputedStyle
+
+noticia3.style.fontSize = "50px";
+
+
+console.log(window.getComputedStyle(noticia3).fontSize);
+
+
+
 
 
 
