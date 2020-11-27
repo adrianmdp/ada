@@ -65,15 +65,45 @@ const agregar = (name, email) => {
 };
 
 btn.addEventListener("click", (e) => {
-  e.stopPropagation();
   agregar("Adrian", "asd@asd.com");
 });
 
 
-const formAddUsers = document.querySelector('#form-add-users');
+const inputName = document.getElementById('control-name');
+const inputEmail = document.getElementById('control-email');
 
-formAddUsers.addEventListener('submit', (e) => {
-  e.preventDefault()
+inputName.addEventListener('change', e => {
+  console.log(e.target.value);
+})
 
-  console.log(this.elements)
+// inputName.addEventListener('blur', () => {
+//   document.body.style.backgroundColor = 'green';
+// });
+
+// inputName.addEventListener('change', () => {
+//   console.log('cambiando');
+// });
+
+// inputName.addEventListener('input', () => {
+//   console.log('cambiando');
+// });
+
+// inputName.addEventListener('focus', () => {
+//   inputName.style.borderColor = "red";
+// });
+
+
+const formUsers = document.getElementById('form-users');
+
+formUsers.addEventListener('submit', event => {
+  event.preventDefault();
+
+  const name = inputName.value;
+  const email = inputEmail.value;
+
+  agregar(name, email);
+
+  inputName.value = '';
+  inputEmail.value = '';
+
 })
