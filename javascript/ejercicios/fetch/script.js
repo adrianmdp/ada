@@ -11,11 +11,11 @@
 //     })
 
 
-// Crear una función renderTableHead que reciba un objeto y en bases a sus prop, renderice la cabecera de una tabla en pantalla.
+// Crear una función renderTableHead que reciba una tabla y un objeto y en bases a sus prop, renderice la cabecera de una tabla en pantalla.
 
 // Crear una función renderImage que renderice una imagen en pantalla.
 
-// Crear una función renderTableData que reciba un objeto y renderice una fila de tabla en pantalla.
+// Crear una función renderTableData que reciba un row y un objeto y renderice una fila de tabla en pantalla.
 
 // Haciendo uso de las funciones anteriores, crear una tabla en pantalla que muestre los generos disponibles.
 
