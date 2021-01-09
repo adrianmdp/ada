@@ -1,7 +1,7 @@
 ### Ejercicio
 
-- Crear una aplicación con create-react-app
-- Crear limpiar el proyecto para iniciar sin codigo innecesario.
+- Crear una aplicación de React con create-react-app
+- Limpiar el proyecto para iniciar sin codigo innecesario.
 - El componente app deberá tener creado un css particular que contendrá selectore generales a toda la app. (Ej: App.css)
 - Los componentes creados deberán tener un css particular que defina sus selectores particulares.
 - Crear los componentes Header, Nav, Main, Aside y Footer.
