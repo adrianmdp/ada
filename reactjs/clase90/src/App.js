@@ -1,26 +1,27 @@
-import React from 'react'
-import { Header } from './components'
+import React from "react";
+import { Header } from "./components";
 
 const App = () => {
   const navItems = [
     {
-      text: 'Inicio',
-      link: '/'
+      text: "Inicio",
+      link: "/",
     },
     {
-      text: 'Servicios',
-      link: '/servicios'
+      text: "Servicios",
+      link: "/servicios",
     },
     {
-      text: 'Contacto',
-      link: '/contacto'
-    }
-  ]
+      text: "Contacto",
+      link: "/contacto",
+    },
+  ];
 
   return (
     <div className="my app" id="my app">
       <Header menuItems={navItems} />
       <h1>Mi primera app de React</h1>
+      <button className="btn btn-primary">Mi botón</button>
     </div>
   );
 };
