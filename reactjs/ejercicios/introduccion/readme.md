@@ -35,4 +35,5 @@ Haciendo uso de la app del ejercicio anterior, vamos a realizar los siguientes c
 - Layout tendrá una carpeta components.
 - Todos los componentes anteriores menos Main, deben ser movidos a la carpeta creada en el inciso anerior.
 - Ahora Main y Layout comparten espacio en components.
-- Crear una carpeta screens
+- Crear una carpeta screens.
+- Todos los componentes creados en main deben pasan a la carpeta screens.
