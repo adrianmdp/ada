@@ -8,6 +8,8 @@
 - Definir un color a elección para cada uno de los componente anteriores.
 - Crear un componente Layout que integre cada uno de los componentes anteriores y los posiciones como se muestra en la imagen.
 
+(http://jasmdp.ferozo.com/ada/template-html.png)
+
 ### Ejercicio 2
 
 Haciendo uso de la app del ejercicio anterior:
