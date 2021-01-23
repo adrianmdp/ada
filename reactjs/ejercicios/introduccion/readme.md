@@ -37,3 +37,32 @@ Haciendo uso de la app del ejercicio anterior, vamos a realizar los siguientes c
 - Ahora Main y Layout comparten espacio en components.
 - Crear una carpeta screens.
 - Todos los componentes creados en main deben pasan a la carpeta screens.
+
+### Ejercicio 4
+
+Teniendo en cuenta que la estructura del proyecto debe quedar...
+
+- src
+
+  - components
+    - Layout
+      - componentes
+        - Aisde
+        - Footer
+        - Header
+        - Nav
+    - Main
+  - screens
+
+- Implementar React Router DOM en el proyecto para poder navegar entre paginas.
+- Por el momento la aplicación navegará entre 3 paginas, Home, Shop, Offers, Contact, Login. Utilizar castellano para mostrar en pantalla
+
+### Ejercicio 5
+
+- Crear una pagina Login que pida usuario y contraseña.
+- La pagina login solo debe mostrar el footer. Header, aside o navegaciones deben quedar ocultas.
+
+### Ejercicio 6
+
+- Crear un arreglo de al menos 6 productos con title, image, price, description.
+- Mostrar los productos en pantalla (Mostrarlos en card sería una buena forma).
