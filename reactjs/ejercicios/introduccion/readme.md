@@ -56,6 +56,7 @@ Teniendo en cuenta que la estructura del proyecto debe quedar...
 
 - Implementar React Router DOM en el proyecto para poder navegar entre paginas.
 - Por el momento la aplicación navegará entre 3 paginas, Home, Shop, Offers, Contact, Login. Utilizar castellano para mostrar en pantalla
+- El botón iniciar sesión no tendra funcionalidad por el momento pero debe cargar Home.
 
 ### Ejercicio 5
 
