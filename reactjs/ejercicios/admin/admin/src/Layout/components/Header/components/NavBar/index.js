@@ -5,6 +5,7 @@ import { Grid3x3GapFill } from "react-bootstrap-icons";
 import { Gear } from "react-bootstrap-icons";
 import { useHistory } from "react-router-dom";
 import avatar from "../../../../../assets/img/avatar-1.jpg";
+import menuItems from './data'
 
 const NavBar = () => {
   const { goBack } = useHistory();
@@ -62,24 +63,19 @@ const NavBar = () => {
                 English
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
+
+                {menuItems.map(({ href, text, className }) => {
+
+                  return (
+                    <li className={`dropdown-item ${className}`}>
+                      <a href={href}>
+                        {text}
+                      </a>
+                    </li>
+                  )
+
+                })}
+
               </ul>
             </li>
             <li className="nav-item">
