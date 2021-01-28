@@ -25,7 +25,7 @@ const Users = () => {
 
     return (
         <Layout id={15}>
-            <Main>
+            <Main showSettings>
                 <h1>Users</h1>
 
                 <AddUsersForm handleAddUser={Add} />
