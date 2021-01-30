@@ -10,6 +10,12 @@ y que renderice el precio formateado con el símbolo de la moneda adelante
 
 Investigar Intl.NumberFormat
 
+** Extra **
+
+- Crear un formulario que pida moneda y valor
+- El componente Precio debe recibir los datos ingresados en el formulario anterior.
+- Moneda y valor son estados de componente padre (de Precio).
+
 ### Fecha
 
 - Crear un componente Fecha que tenga un prop fecha que tome un objeto de tipo Date, y renderice un elemento p con la fecha formateada, por ejemplo: miércoles, 29 de abril de 2020

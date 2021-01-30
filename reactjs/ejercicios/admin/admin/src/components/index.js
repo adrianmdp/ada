@@ -1,1 +1,2 @@
-export { LikeButton } from './LikeButton'
+export { LikeButton } from "./LikeButton";
+export { LoginForm } from "./LoginForm";
