@@ -2,15 +2,17 @@ import React from "react";
 import { Header, Footer, Aside } from "./components";
 import "./styles.css";
 
-const Layout = ({ children, hideHeader, hideAside, hideFooter }) => {
+const Layout = (props) => {
+  const { children, hideHeader, hideAside, hideFooter, title } = props;
+
   return (
     <div className="layout">
-      {!hideAside && <Aside />}
+      {hideAside === false && <Aside />}
 
       <div className="contenedor">
-        {!hideHeader && <Header />}
+        {hideHeader === false && <Header title={title} />}
         {children}
-        {!hideFooter && <Footer />}
+        {hideFooter === false && <Footer />}
       </div>
     </div>
   );
