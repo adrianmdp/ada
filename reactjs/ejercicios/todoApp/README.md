@@ -17,6 +17,10 @@ Para resolver esto:
 - Esta pagina tiene una grilla con todas las tareas creadas hasta el momento.
 - Las tareas pueden cambiar de estados (pendiente, realizada, cancelada).
 
+(https://coderthemes.com/hyper/saas/apps-projects-list.html)
+(https://coderthemes.com/hyper/saas/apps-tasks.html)
+(https://coderthemes.com/hyper/saas/apps-kanban.html)
+
 ### Ejercicio 3
 
 - Crear una pagina Agregar usuario con su titulo correspondiente.
@@ -32,5 +36,8 @@ Para resolver esto:
 - Crear una pagina Login donde solo se muestre el footer del sitio.
 - Los ususarios deben acceder con email y contraseña.
 - Simularemos un login almacenando datos en localStorage.
+
+(https://coderthemes.com/hyper/saas/pages-login.html)
+(https://coderthemes.com/hyper/saas/pages-login-2.html)
 
 > Mas detalles, proximamente.
