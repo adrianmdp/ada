@@ -1,0 +1,1 @@
+export { Ejemplo } from "./Ejemplo";
