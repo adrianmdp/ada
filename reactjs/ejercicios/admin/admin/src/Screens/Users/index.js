@@ -25,7 +25,7 @@ const Users = () => {
   console.log(inhabitants);
 
   return (
-    <Layout title="Usuarios">
+    <Layout>
       <Main showSettings>
         <h1>Users</h1>
 

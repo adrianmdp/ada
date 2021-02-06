@@ -7,10 +7,8 @@ import { useHistory } from "react-router-dom";
 import avatar from "../../../../../assets/img/avatar-1.jpg";
 import menuItems from "./data";
 
-const NavBar = (props) => {
+const NavBar = () => {
   const { goBack } = useHistory();
-
-  const { title } = props;
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
@@ -23,7 +21,6 @@ const NavBar = (props) => {
               </button>
             </li>
           </ul>
-          <span class="navbar-text">{title}</span>
           <form className="d-flex">
             <div className="input-group">
               <span className="input-group-text" id="basic-addon1">
@@ -68,7 +65,7 @@ const NavBar = (props) => {
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 {menuItems.map(({ href, text, className }) => {
                   return (
-                    <li className={`dropdown-item ${className}`}>
+                    <li key={text} className={`dropdown-item ${className}`}>
                       <a href={href}>{text}</a>
                     </li>
                   );

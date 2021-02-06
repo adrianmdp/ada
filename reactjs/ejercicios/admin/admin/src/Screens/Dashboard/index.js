@@ -5,7 +5,7 @@ import { LikeButton } from "../../components";
 
 const Dashboard = () => {
   return (
-    <Layout title="Home">
+    <Layout>
       <Main>
         <h1>Dashboard</h1>
 

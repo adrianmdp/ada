@@ -1,12 +1,12 @@
-import React from 'react'
-import LogoFucsia from '../../../../../assets/img/logo-fucsia.png'
+import React from "react";
+import LogoFucsia from "../../../../../assets/img/logo-fucsia.png";
 
 const Logo = () => {
-    return (
-        <a href="/" className="logo d-flex justify-content-center mb-4">
-            <img src={LogoFucsia} alt="ADA admin logo" height="50" />
-        </a>
-    )
-}
+  return (
+    <a href="/" className="logo d-flex justify-content-center mb-4">
+      <img src={LogoFucsia} alt="ADA admin logo" height="30" />
+    </a>
+  );
+};
 
-export { Logo }
+export { Logo };

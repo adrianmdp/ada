@@ -6,31 +6,80 @@ import "./styles.css";
 const Aside = () => {
   return (
     <aside className="aside bg-dark">
-      <div className="accordion" id="accordionExample">
+      <Logo />
+      <div className="accordion" id="accordionMenu">
         <div className="accordion-item">
-          <Logo />
-          <h2 className="accordion-header" id="headingOne">
+          <div className="accordion-header" id="headingUsers">
             <button
-              className="accordion-button"
+              className="accordion-button collapsed"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#collapseOne"
-              aria-expanded="true"
-              aria-controls="collapseOne"
+              data-bs-target="#collapseUsers"
+              aria-expanded="false"
+              aria-controls="collapseUsers"
             >
-              Navigation
+              <i class="bi bi-person"></i> Users
             </button>
-          </h2>
+          </div>
           <div
-            id="collapseOne"
-            className="accordion-collapse collapse show"
-            aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample"
+            id="collapseUsers"
+            className="accordion-collapse collapse collapse"
+            aria-labelledby="headingUsers"
+            data-bs-parent="#accordionMenu"
           >
             <div className="accordion-body">
-              <Link to="/">Inicio</Link>
-              <Link to="/users">Usuarios</Link>
-              <Link to="/products">Productos</Link>
+              <Link to="/users">Ver</Link>
+              <Link to="/">Agregar</Link>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingTasks">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTasks"
+              aria-expanded="false"
+              aria-controls="collapseTasks"
+            >
+              <i class="bi bi-card-list"></i> Task
+            </button>
+          </div>
+          <div
+            id="collapseTasks"
+            className="accordion-collapse collapse collapse"
+            aria-labelledby="headingTasks"
+            data-bs-parent="#accordionMenu"
+          >
+            <div className="accordion-body">
+              <Link to="/">Ver</Link>
+              <Link to="/">Agregar</Link>
+            </div>
+          </div>
+        </div>
+        <div className="accordion-item">
+          <div className="accordion-header" id="headingSettings">
+            <button
+              className="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseSettings"
+              aria-expanded="false"
+              aria-controls="collapseSettings"
+            >
+              <i class="bi bi-sliders"></i> Settigns
+            </button>
+          </div>
+          <div
+            id="collapseSettings"
+            className="accordion-collapse collapse collapse"
+            aria-labelledby="headingSettings"
+            data-bs-parent="#accordionMenu"
+          >
+            <div className="accordion-body">
+              <Link to="/">General</Link>
+              <Link to="/">Multimedia</Link>
             </div>
           </div>
         </div>

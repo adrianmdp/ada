@@ -3,14 +3,14 @@ import { Header, Footer, Aside } from "./components";
 import "./styles.css";
 
 const Layout = (props) => {
-  const { children, hideHeader, hideAside, hideFooter, title } = props;
+  const { children, hideHeader, hideAside, hideFooter } = props;
 
   return (
     <div className="layout">
       {hideAside === false && <Aside />}
 
       <div className="contenedor">
-        {hideHeader === false && <Header title={title} />}
+        {hideHeader === false && <Header />}
         {children}
         {hideFooter === false && <Footer />}
       </div>

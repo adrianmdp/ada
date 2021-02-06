@@ -8,7 +8,7 @@ const Products = () => {
   const { calcularIva, calcularSubtotal, calcularTotal } = useMath();
 
   return (
-    <Layout title="Productos">
+    <Layout>
       <Main>
         <h1>Products</h1>
 
