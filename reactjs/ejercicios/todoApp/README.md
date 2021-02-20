@@ -84,4 +84,4 @@ Los datos de tu cuenta se obtienen en la solapa "General" luego de hacer click e
 ### Ejercicio 7
 
 - Crear un hook que resuelva todas las tareas apropiadas para manejar la sesión de usuarios. (Un nombre como ayuda podría ser "useAuth")
-- El hook debe exportar (function > login, function > register, function > logout, boolean > isAtuhenticated, object > user)
+- El hook debe exportar (function > login, function > register, function > logout, boolean > isAuthenticated, object > user)
