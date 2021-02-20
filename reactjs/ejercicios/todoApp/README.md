@@ -79,7 +79,7 @@ Los datos de tu cuenta se obtienen en la solapa "General" luego de hacer click e
 - firebaseAuth contiene un método auth que a su vez nos da acceso a métodos como:
 - signInWithEmailAndPassword
 - createUserWithEmailAndPassword
-- Una vez creado el usuario, se puede hacer uso del methodo "updateProfile" para agregar al usuario, en nombre y apellido. updateProfile recibe un objeto con la prop displayName.
+- Una vez creado el usuario, se puede hacer uso del método "updateProfile" para agregar al usuario, en nombre y apellido. updateProfile recibe un objeto con la prop displayName.
 
 ### Ejercicio 7
 
