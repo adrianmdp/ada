@@ -77,9 +77,9 @@ Los datos de tu cuenta se obtienen en la solapa "General" luego de hacer click e
 - Agregar la dependencia firebase (npm install firebase).
 - Asi como hicimos el uso de axios exportando api, ahora haremos uso de firebase exportanto firebaseAuth.
 - firebaseAuth contiene un método auth que a su vez nos da acceso a métodos como:
-- - signInWithEmailAndPassword
-- - createUserWithEmailAndPassword
-- - updateProfile > displayName
+- signInWithEmailAndPassword
+- createUserWithEmailAndPassword
+- Una vez creado el usuario, se puede hacer uso del methodo "updateProfile" para agregar al usuario, en nombre y apellido. updateProfile recibe un objeto con la prop displayName.
 
 ### Ejercicio 7
 
