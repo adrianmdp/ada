@@ -85,3 +85,19 @@ Los datos de tu cuenta se obtienen en la solapa "General" luego de hacer click e
 
 - Crear un hook que resuelva todas las tareas apropiadas para manejar la sesión de usuarios. (Un nombre como ayuda podría ser "useAuth")
 - El hook debe exportar (function > login, function > register, function > logout, boolean > isAuthenticated, object > user)
+
+### Ejercicio 8
+
+- Haciendo uso de context, ahora manejaremos el state de autenticación y el usuario. El Hook auth ya no cumple con esta tarea.
+
+### Ejercicio 9
+
+- Resolver el logout investigando el método auth de firebase
+
+### Ejercicio 10
+
+- Antes de continuar con tareas más complejas, vamos a mejorar la UX y UI del sitio. Podemos agregarle precargas, dejar funcionando todos los enlaces, eliminar aquello que no sea útil.
+
+### Ejercicio 11
+
+- Tenemos que resolver un estado de autenticación más seguro. Hoy estamos evaluando si un usuario esta en sesión en base a un string y esto es bastante desprolijo. Vamos a investigar el método auth paraintentar mejorarlo un poco.
