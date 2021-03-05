@@ -1,16 +1,15 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Main, Layout } from './components'
-import { Tasks } from './screens'
-import { ListTasks } from './screens/ListTasks'
+import { Tasks, Users } from 'screens'
+
 
 const App = () => {
   return (
     <>
       <Router>
         <Switch>
-          <Route path="/tasks" component={ Tasks } />
-          <Route path="/users" component={ Users } />
+          <Route path="/tasks" component={Tasks} />
+          <Route path="/users" component={Users} />
         </Switch>
       </Router>
     </>

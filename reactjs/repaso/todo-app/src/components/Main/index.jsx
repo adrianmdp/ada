@@ -3,11 +3,10 @@ import { Header } from './components'
 
 import './styles.scss'
 
-const Main = ({title}) => {
+const Main = ({ title }) => {
     return (
         <main className="main">
-            <Header />
-            {title}
+            <Header title={title} />
         </main>
     )
 }

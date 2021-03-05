@@ -1,7 +1,7 @@
 import React from 'react'
-import { Layout, Main } from '../../components'
+import { Layout, Main } from 'components'
 
-const AddTasks = () => {
+const Add = () => {
 
     return (
         <>
@@ -14,4 +14,4 @@ const AddTasks = () => {
 }
 
 
-export { AddTasks }
+export { Add }

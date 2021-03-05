@@ -1,7 +1,7 @@
 import React from 'react'
-import { Layout, Main } from '../../components'
+import { Layout, Main } from 'components'
 
-const ListTasks = () => {
+const List = () => {
 
     return (
         <>
@@ -14,4 +14,4 @@ const ListTasks = () => {
 
 }
 
-export { ListTasks }
+export { List }

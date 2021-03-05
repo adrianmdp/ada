@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = ({ title }) => {
 
     return (
         <header>
-            <h1 className="title">Título de Main Header</h1>
+            <h1 className="title">{title}</h1>
             <button className="btn btn-primary">
                 Agregar
             </button>
