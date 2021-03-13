@@ -1,2 +1,3 @@
-export { Tasks } from './Tasks'
-export { Users } from './Users'
+export { Private } from './Private'
+export { Public } from './Public'
+export { Wrapper } from './Wrapper'

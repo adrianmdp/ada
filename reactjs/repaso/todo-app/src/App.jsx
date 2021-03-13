@@ -1,19 +1,17 @@
-import React from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import { Tasks, Users } from 'screens'
-
+import React from "react";
+import { Wrapper } from "screens";
+import { AuthProvider } from "contexts";
+import { ThemeProvider } from "contexts/ThemeProvider";
 
 const App = () => {
+
   return (
-    <>
-      <Router>
-        <Switch>
-          <Route path="/tasks" component={Tasks} />
-          <Route path="/users" component={Users} />
-        </Switch>
-      </Router>
-    </>
+    <AuthProvider>
+      <ThemeProvider>
+        <Wrapper />
+      </ThemeProvider>
+    </AuthProvider>
   );
-}
+};
 
 export default App;
